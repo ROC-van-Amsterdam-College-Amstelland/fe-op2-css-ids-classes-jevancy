@@ -20,12 +20,14 @@ body{
 
 /* CSS in User Agent Stylesheet, meegegeven door de browser zelf */
 h1{
-    font-size: 80px;
+    font-size: 50px;
+    background-color: purple;
 }
 
 /* CSS in Author Stylesheet, b.v. style.css */
 h1{
     font-size: 50px;
+    background-color: darkorange;
 }
 
 header{
@@ -55,7 +57,7 @@ main img{
 }
 
 footer img{
-    border: solid black 1px;
+    border: 1px solid black;
 }
 
 header nav{
@@ -64,5 +66,24 @@ header nav{
 
 ul{
     display: flex;
+    border: 1px dashed block;
 }
+
+header nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    border: 1px dashed block;
+}
+
+header ul{
+    list-style-type: none;
+    border: 1px dashed block;
+}
+
+footer ul{
+    list-style-type: none;
+    border: 1px dashed block;
+}
+
+
 
