@@ -85,5 +85,12 @@ footer ul{
     border: 1px dashed block;
 }
 
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
+img + ul{
+    color:yellow;
+    list-style-type: circle;
+}
 
