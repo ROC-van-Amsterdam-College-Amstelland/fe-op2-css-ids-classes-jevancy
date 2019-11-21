@@ -13,3 +13,56 @@ img{
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
+
+body{
+    background-color: blue;
+}
+
+/* CSS in User Agent Stylesheet, meegegeven door de browser zelf */
+h1{
+    font-size: 80px;
+}
+
+/* CSS in Author Stylesheet, b.v. style.css */
+h1{
+    font-size: 50px;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    background-color: red;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+}
+
+header img{
+    margin: 20px;
+}
+
+main img{
+    width: 400px;
+}
+
+footer img{
+    border: solid black 1px;
+}
+
+header nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
+
